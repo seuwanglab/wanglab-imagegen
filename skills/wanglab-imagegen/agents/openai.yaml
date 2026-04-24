@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wanglab Imagegen"
+  short_description: "生成或编辑位图图片"
+  default_prompt: "当用户需要生成或编辑位图图片时使用 $wanglab-imagegen，包括照片、插画、纹理、海报、透明背景素材、参考图生成、改图和多图变体；不要用于 SVG、HTML/CSS、canvas 或代码原生视觉输出。先判断是文生图、参考图生成还是改图，再提取 prompt、图片来源和可选参数；缺少必填字段时简短追问，完成后返回保存路径和实际使用参数。"
+
+policy:
+  allow_implicit_invocation: true
